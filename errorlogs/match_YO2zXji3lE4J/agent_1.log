@@ -1,0 +1,12 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "F:\REPOS\LuxAI\main.py", line 3, in <module>
+    from agent import agent
+  File "F:\REPOS\LuxAI\agent.py", line 14, in <module>
+    logging.basicConfig(filename='agent.log', level=logging.INFO, mode='w')
+  File "C:\Users\lucas\AppData\Local\Programs\Python\Python39\lib\logging\__init__.py", line 2013, in basicConfig
+    raise ValueError('Unrecognised argument(s): %s' % keys)
+ValueError: Unrecognised argument(s): mode
+Agent timed out
